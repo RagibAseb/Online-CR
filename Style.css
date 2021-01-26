@@ -1,0 +1,180 @@
+.templet {
+    height: 500px;
+}
+
+.clear {
+    overflow: hidden;
+}
+
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header {
+    width: 100%;
+    border: 2px solid skyblue;
+    text-align: center;
+    margin-bottom: 4px;
+    background: gray;
+}
+
+.left-side {
+    width: 13%;
+    float: left;
+
+}
+
+.left-side img {
+    background: rgb(49, 44, 44);
+    border: 2px solid white;
+    border-radius: 100px;
+    height: 150px;
+    padding-left: 0;
+
+}
+
+.right-side {
+    float: right;
+    width: 21%;
+}
+
+.right-side form {
+    margin-top: 50px;
+}
+
+.right-side form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 200px;
+    background: #f1f1f1;
+    padding-right: 0;
+}
+
+.right-side form.example button {
+    width: 40px;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    cursor: pointer;
+    padding-right: 0;
+}
+
+.right-side form.example button:hover {
+    background: #0b7dda;
+}
+
+.right-side form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.navigation {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    border: 1px solid;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 252px;
+    background-color: #f1f1f1;
+}
+
+.navigation h2 {
+    text-align: center;
+    background: #3889be;
+    border-bottom: 2px solid #155179;
+    padding: 10px;
+    color: white;
+}
+
+.navigation li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border: 2px solid #3889be;
+}
+
+.navigation li a:hover {
+    background-color: #d34836;
+    color: white;
+}
+
+.maincontent {
+    float: left;
+    width: 53%;
+    padding: 10px;
+    border: 2px solid #808080;
+}
+
+.maincontent h1 {
+    text-align: center;
+    color: rgb(41, 35, 34);
+}
+
+.maincontent img {
+    width: auto;
+    height: 300px;
+    padding-left: 70px;
+}
+
+.sidebar {
+    float: right;
+    width: 20%;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.sidebar h2 {
+    text-align: center;
+    background: gray;
+    border-bottom: 2px solid #000;
+    padding: 10px;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    border: 2px solid;
+    text-align: center;
+    margin-top: 4px;
+    background: gray;
+}
+
+.link {
+    margin-top: 20px;
+}
+
+.link a {
+    color: #fff;
+    padding: 10px;
+    transition: 0.5s;
+    transition-property: background;
+}
+
+.link a:hover {
+    background: #19B3D3;
+}
+
+.link p {
+    color: white;
+}
